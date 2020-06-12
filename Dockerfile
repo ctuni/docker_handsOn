@@ -8,7 +8,7 @@ FROM ubuntu:latest
 #Maintainer and author
 LABEL maintainer "Cris <c.tuni.dominguez@gmail.com>" \
       version "0.1" \
-      description "Docker image to run STAR Genome aligner"
+      description "Docker image to run STAR Genome aligner, https://hub.docker.com/repository/docker/ctuni/imageclasse"
 
 #Install required packages in ubuntu for STAR
 RUN apt-get update
